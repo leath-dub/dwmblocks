@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{" ", "echo $(cpu)'%'",	30,		0},
+	{" ", "echo $(cpu)'%'",	5,		0},
 	{" ", "echo $(mem)'%'",	30,		0},
 	{" ", "bar_volume", 	1,  	0},
 	{" ", "echo $(bat)",	60,		0},
