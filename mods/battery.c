@@ -32,4 +32,5 @@ void battery()
 int main(void)
 {
     battery();
+    return 0;
 }

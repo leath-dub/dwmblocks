@@ -1,4 +1,4 @@
-PREFIX := /home/cathal/.dev/bin
+PREFIX := /usr/local/bin
 CC=gcc
 
 all: bat cpu dat mem

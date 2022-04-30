@@ -16,11 +16,11 @@ int jiff(int jiffies[2])
     while (((ch = fgetc(fcpu)) != EOF ) && (count != 4))
     {
         count++;
-    } 
+    }
     count = 0;
     while (((ch = fgetc(fcpu)) != EOF ) && (ch != '\n'))
     {
-        strncat(build, &ch, 1); 
+        strncat(build, &ch, 1);
         if (ch == ' ')
         {
             junk = atoi(build);
